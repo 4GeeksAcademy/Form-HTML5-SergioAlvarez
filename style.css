@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+}
+
+
+.cuadroFormulario{
+    background-color: white;
+    height: auto;
+    width: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.228);
+}
+
+.encabezado{
+    background-color:rgb(206, 206, 206) ;
+}
+
+.alerta{
+    background-color: rgb(209, 146, 146);
+}
+
+.metodoPago{
+    display: flex;
+    width: fit-content;
+    gap: 5px;
+    background-color:grey;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.anotacionMensaje{
+    padding-top: 5px;
+    margin: 0;
+
+    font-size: small;
+    color: rgba(128, 128, 128, 0.793);
+}
